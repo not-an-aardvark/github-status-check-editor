@@ -1,0 +1,16 @@
+extends: airbnb
+env:
+  browser: true
+globals:
+  React: false
+  ReactDOM: false
+rules:
+  max-len: off
+  react/no-multi-comp: off
+  react/prop-types: off
+  jsx-a11y/label-has-for: off
+  object-curly-newline: off
+  function-paren-newline: off
+  indent: [error, 2, {SwitchCase: 1}]
+  react/jsx-indent: off
+  react/jsx-closing-tag-location: off

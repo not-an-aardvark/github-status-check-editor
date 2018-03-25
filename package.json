@@ -1,0 +1,31 @@
+{
+  "name": "github-status-check-editor",
+  "version": "1.0.0",
+  "description": "A manual editor for status checks on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel -o index-compiled.js index.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/not-an-aardvark/github-status-check-editor.git"
+  },
+  "author": "Teddy Katz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/not-an-aardvark/github-status-check-editor/issues"
+  },
+  "homepage": "https://github.com/not-an-aardvark/github-status-check-editor#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}

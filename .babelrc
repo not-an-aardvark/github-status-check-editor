@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    "syntax-object-rest-spread",
+    "syntax-trailing-function-commas",
+    "transform-react-jsx"
+  ]
+}
